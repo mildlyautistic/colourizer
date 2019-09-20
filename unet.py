@@ -1,5 +1,5 @@
 from fastai.layers import *
-from .layers import *
+from layers import *
 from fastai.torch_core import *
 from fastai.callbacks.hooks import *
 from fastai.vision import *

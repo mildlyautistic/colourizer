@@ -1,6 +1,6 @@
 from numpy import ndarray
 from abc import ABC, abstractmethod
-from .critics import colorize_crit_learner
+from critics import colorize_crit_learner
 from fastai.core import *
 from fastai.vision import *
 from fastai.vision.image import *

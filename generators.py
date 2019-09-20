@@ -1,8 +1,8 @@
 from fastai.vision import *
 from fastai.vision.learner import cnn_config
-from .unet import DynamicUnetWide, DynamicUnetDeep
-from .loss import FeatureLoss
-from .dataset import *
+from unet import DynamicUnetWide, DynamicUnetDeep
+from loss import FeatureLoss
+from dataset import *
 
 #Weights are implicitly read from ./models/ folder 
 def gen_inference_wide(root_folder:Path, weights_name:str, nf_factor:int=2, arch=models.resnet101)->Learner:
